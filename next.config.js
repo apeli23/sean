@@ -4,14 +4,14 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 // You might need to insert additional domains in script-src if you are using external services
 const ContentSecurityPolicy = `
-  default-src 'self';  
-  script-src 'self' 'unsafe-eval' 'unsafe-inline' *.disqus.com;
+  default-src 'self';
+  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app;
   style-src 'self' 'unsafe-inline' *.googleapis.com cdn.jsdelivr.net;
   img-src * blob: data:;
   media-src 'none';
   connect-src *;
   font-src 'self' fonts.gstatic.com cdn.jsdelivr.net;
-  frame-src *.disqus.com
+  frame-src giscus.app
 `
 
 const securityHeaders = [
@@ -21,10 +21,10 @@ const securityHeaders = [
     value: ContentSecurityPolicy.replace(/\n/g, ''),
   },
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
-  //{
-  //  key: 'Referrer-Policy',
-  //  value: 'strict-origin-when-cross-origin',
-  //},
+  {
+    key: 'Referrer-Policy',
+    value: 'strict-origin-when-cross-origin',
+  },
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
   {
     key: 'X-Frame-Options',
