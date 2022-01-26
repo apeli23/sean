@@ -1,16 +1,17 @@
 ---
-name: Tails Azimuth
+name: Alfonso García
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+occupation: Senior Software Engineer
+company: Plexus Tech
+email: hello@alfoncode.com
+twitter: https://twitter.com/alfoncode
+linkedin: https://www.linkedin.com/in/alfonsojosegarcia
+github: https://github.com/alfoncode
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+Welcome to my blog about software development, blockchain, entrepreneurship, investment and new technologies.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+My name is Alfonso García and, although I am a Technical Telecommunications Engineer specializing in Telematics, I work as a Senior Software Engineer in a technology consultancy.
+Since I was very young I have been passionate about new technologies. I have worked on research projects and made some international publication in science journals [Cloud-based monitoring system for lysimetric and agroclimatic data] (https://link.springer.com/article/10.1007%2Fs11119-017-9542-5), as freelance developer, entrepreneur and as software engineer. I have been technical lead and project manager of projects with up to 25 people and currently I belong to the devops architecture group of a major company in the banking sector.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+In addition to software development, I am passionate about the world of entrepreneurship, investment and blockchain.
