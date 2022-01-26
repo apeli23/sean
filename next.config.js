@@ -17,7 +17,7 @@ const ContentSecurityPolicy = `
 const securityHeaders = [
   {
     key: 'Access-Control-Allow-Origin',
-    value: '*',
+    value: 'https://*.disqus.com',
   },
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
   {
