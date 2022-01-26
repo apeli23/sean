@@ -15,6 +15,10 @@ const ContentSecurityPolicy = `
 `
 
 const securityHeaders = [
+  {
+    key: 'Access-Control-Allow-Origin',
+    value: 'https://alfoncode.disqus.com/embed.js',
+  },
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
   {
     key: 'Content-Security-Policy',
