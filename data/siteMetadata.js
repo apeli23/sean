@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'Alfonso García',
   headerTitle: 'alfoncode',
   description:
-    'Personal blog about software development, blockchain, entrepreneurship, investment and new technologies.',
+    'personal web about software development, blockchain, entrepreneurship, investment and new technologies.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://alfoncode.com',
