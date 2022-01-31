@@ -23,17 +23,17 @@ export default function Home({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div>
-        <div className="flex flex-col items-center my-6 xl:flex-row gap-x-12 xl:mb-12">
+        <div className="flex flex-col items-center xl:flex-row gap-x-12 mb-12">
           <div className="pt-6">
-            <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-cyan-500 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               Hi, I’m Alfonso García
             </h1>
             <h2 className="text-lg prose text-gray-600 dark:text-gray-400">
               {`Welcome to my ${siteMetadata.description}. Feel at home, ask, comment, give your opinion...`}
             </h2>
           </div>
-          <div className="flex items-center justify-center mx-2 my-12 w-96">
-            <div className="flex flex-col items-center pt-8 space-x-2">
+          <div className="flex items-center justify-center">
+            <div className="flex flex-col items-center pt-8 my-2 space-x-2">
               <Image
                 src={siteMetadata.image}
                 alt="avatar"
@@ -44,7 +44,7 @@ export default function Home({ posts }) {
             </div>
           </div>
         </div>
-        <h2 className="flex pb-6 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-5xl">
+        <h2 className="flex pb-6 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-5xl">
           Latest posts
         </h2>
         <hr className="border-gray-200 dark:border-gray-700" />
