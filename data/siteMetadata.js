@@ -1,22 +1,22 @@
 const siteMetadata = {
-  title: 'alfoncode personal website',
-  author: 'Alfonso García',
-  headerTitle: 'alfoncode',
+  title: 'Dennis Sean personal website',
+  author: 'Dennis Sean',
+  headerTitle: 'dennis-codes',
   description:
     'personal web about software development, blockchain, entrepreneurship, investment and new technologies.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://alfoncode.com',
-  siteRepo: 'https://github.com/alfoncode/personal-web',
+  siteUrl: 'https://github.com/dennis-sean',
+  siteRepo: 'https://github.com/dennis-sean',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'hello@alfoncode.com',
-  github: 'https://github.com/alfoncode',
-  twitter: 'https://twitter.com/alfoncode',
-  facebook: 'https://facebook.com/alfoncode',
+  email: 'dennisorinba@gmail.com',
+  github: 'https://github.com',
+  twitter: 'https://twitter.com',
+  facebook: 'https://facebook.com',
   //youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com/in/alfonsojosegarcia',
+  linkedin: 'https://www.linkedin.com/',
   locale: 'en-US',
   analytics: {
     // supports plausible, simpleAnalytics, umami or googleAnalytics
